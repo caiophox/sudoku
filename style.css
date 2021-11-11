@@ -1,0 +1,46 @@
+body {
+	background-color: #1f1f1e;
+}
+
+.mainGrid {
+	position: absolute;
+	margin: 1rem;
+	width: 54rem;
+	background: #b7b3a1;
+	border-width: 0.2rem;
+	border-style: solid;
+	border-color: #b7b3a1;
+}
+
+.gridRegularBoxes {
+	position: relative;
+	display: flex;
+	width: 54rem;
+	flex-wrap: wrap;
+}
+
+.boxesRegular {
+	box-sizing: border-box;
+	width: 18rem;
+	height: 18rem;
+	border-width: 0.2rem;
+	border-style: solid;
+	border-color: #b7b3a1;
+}
+
+.gridCells {
+	position: absolute;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell {
+	box-sizing: border-box;
+	width: 6rem;
+	height: 6rem;
+	background-color: #252422;
+	border: 0.1rem;
+	border-style: solid;
+	border-color: #b7b3a180;
+}
